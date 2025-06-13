@@ -1,0 +1,10 @@
+2025-02-21 14:02:35,284 - CarbonTrackerThread - CRITICAL - Could not read CPU/DRAM energy consumption due to lack of read-permissions.
+	Please run the following command(s): 
+		sudo chmod +r /sys/class/powercap/intel-rapl:1/energy_uj
+		sudo chmod +r /sys/class/powercap/intel-rapl:0:0/energy_uj
+		sudo chmod +r /sys/class/powercap/intel-rapl:0/energy_uj
+		sudo chmod +r /sys/class/powercap/intel-rapl:1:0/energy_uj
+2025-02-21 14:02:35,381 - CarbonIntensityThread - WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+2025-02-21 14:02:35,381 - CarbonIntensityThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 267.62177 gCO2/kWh.
+2025-02-21 14:03:25,637 - MainThread - WARNING - ElectricityMaps API key not set. Will default to average carbon intensity.
+2025-02-21 14:03:25,638 - MainThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 267.62177 gCO2/kWh.
